@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "jeuel-joaquin": {
+      "hosting": {
+        "jeuel-joaquin": [
+          "jeuel-joaquin"
+        ]
+      }
+    }
+  }
+}

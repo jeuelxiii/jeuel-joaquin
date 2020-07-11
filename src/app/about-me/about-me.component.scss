@@ -1,0 +1,140 @@
+.bg-colored {
+  height: 100vh;
+  width: auto;
+  background: no-repeat center center fixed;
+  z-index: 998;
+  position: absolute;
+  top: 0;
+  background-image: url(/assets/jeuel600colored.jpg);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#container-child{
+    z-index: 9999999 !important;
+    height: auto;
+    width: 100%;
+}
+
+#about-me {
+  z-index: 9999;
+  background-color: gainsboro;
+  height: auto;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px black;
+  margin-bottom: 280px;
+}
+
+#about-me h1 {
+  font-size: 2em;
+  text-align: center;
+  font-family: "Comic Sans MS", gadget, sans-serif;
+  color: white;
+  text-shadow: 1px 2px 2px black;
+}
+
+#about-me p {
+  font-size: 0.9em;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .bg-colored {
+    background-image: url(/assets/jeuel768colored.jpg);
+  }
+
+  #about-me {
+    margin-bottom: 160px;
+  }
+
+  #about-me h1 {
+    font-size: 2.6em;
+  }
+
+  #about-me p {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .bg-colored {
+    background-image: url(/assets/jeuel992colored.jpg);
+  }
+
+  #container-child{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 150px;
+  }
+
+  #about-me{
+      width: 50%;
+  }
+
+  #about-me h1 {
+    font-size: 2.8em;
+  }
+
+  #about-me p {
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (min-width: 992px){
+    .bg-colored {
+        background-image: url(/assets/jeuel4.jpg);
+        height: 100%;
+      }
+
+      #container-child{
+          padding-right: 100px;
+          margin-top: 20px;
+      }
+
+      #about-me{
+        margin-bottom: 0px;
+        padding: 5px 20px;
+      }
+
+      #about-me h1 {
+        font-size: 2.5em;
+      }
+
+      #about-me p {
+        font-size: 1.3em;
+        line-height: 20px;
+      }
+}
+
+@media only screen and (min-width: 1200px){
+    .bg-colored{
+        background-image: url(/assets/jeuelcoloredmax.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #about-me{
+        width: 55%;
+        padding: 20px 20px;
+    }
+
+    #about-me h1 {
+        font-size: 3.6em;
+        padding-bottom: 15px;
+      }
+
+    #about-me p {
+        font-size: 1.4em;
+        line-height: 26px;
+      }
+
+}

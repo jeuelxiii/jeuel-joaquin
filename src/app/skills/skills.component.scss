@@ -1,0 +1,194 @@
+.bg-mobile {
+    height: 100vh;
+    width: auto;
+    background: no-repeat center center fixed;
+    z-index: 998;
+    position: absolute;
+    top: 0;
+    background-image: url(/assets/jeuel600.jpg);
+  }
+
+  .container{
+      margin: 0 !important;
+      padding: 0 !important;
+      border: 0 !important;
+      z-index: 9999;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .container-child{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: 50vh;
+      width: 100%;
+  }
+
+  #html-logo {
+    z-index: 1000000 !important;
+    height: 100px;
+    width: 50%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+  #html-logo img{
+      width: 100px;
+      height: 100px;
+      box-shadow: 3px 3px 2px black;
+      border-radius: 10px;
+      border: 3px outset #E86B32;
+  }
+
+  #css-logo {
+    z-index: 1000000 !important;
+    height: 100px;
+    width: 50%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  #css-logo img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 3px 3px 2px black;
+    border-radius: 10px;
+    border: 3px outset #0070BA;
+}
+
+  #js-logo {
+    z-index: 1000000 !important;
+    height: 100px;
+    width: 50%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+  }
+
+  #js-logo img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 3px 3px 2px black;
+    border-radius: 10px;
+    border: 3px outset #E7C830;
+}
+
+  #angular-logo {
+    z-index: 1000000 !important;
+    height: 100px;
+    width: 50%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  #angular-logo img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 3px 3px 2px black;
+    border-radius: 10px;
+    border: 3px outset #DE0031;
+}
+
+@media only screen and (min-width: 600px) {
+    .bg-mobile {
+      background-image: url(/assets/jeuel768.jpg);
+      width: 100%;
+    }
+
+    
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    .bg-mobile {
+      background-image: url(/assets/jeuel992.jpg);
+    }
+
+    #html-logo{
+        width: 40%;
+    }
+
+    #css-logo{
+        width: 40%;
+    }
+
+    #js-logo{
+        width: 40%;
+    }
+
+    #angular-logo{
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 820px){
+  .container-child{
+    padding-left: 200px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+    .bg-mobile {
+      background-image: url(/assets/jeuel.jpg);
+    }
+
+    .container{
+      width: 82vw;
+    }
+
+    .container-child{
+      padding-left: 0px;
+    }
+
+    #html-logo{
+        width: 25%;
+    }
+
+    #css-logo{
+        width: 25%;
+    }
+
+    #js-logo{
+        width: 25%;
+    }
+
+    #angular-logo{
+        width: 25%;
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .bg-mobile {
+      background-image: url(/assets/jeuelmax.jpg);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+    .container{
+      margin: 0 !important;
+      padding-left: 1000px;
+    }
+
+    .container-child{
+      padding-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 1350px){
+  .container-child{
+    padding-left: 150px;
+  }
+}

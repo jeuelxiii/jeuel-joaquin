@@ -1,0 +1,223 @@
+.bg-mobile {
+  height: 100vh;
+  width: auto;
+  background: no-repeat center center fixed;
+  z-index: 998;
+  position: absolute;
+  top: 0;
+  background-image: url(/assets/jeuel600.jpg);
+}
+
+.main-container {
+  position: absolute;
+  display: flex;
+  align-self: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  padding-bottom: 80px;
+}
+
+.container h1 {
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  font-size: 2em;
+  text-align: center;
+}
+
+.container h2 {
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.container span {
+  color: #ba2409;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 3px 3px 3px black;
+  font-size: 2rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  opacity: 0.7;
+  width: 100%;
+}
+
+.facebook {
+  padding: 0px 10px;
+}
+
+.twitter {
+  padding: 0px 10px;
+}
+
+.linked-in {
+  padding: 0px 6px;
+}
+
+.git {
+  padding: 0px 4px;
+}
+
+.facebook:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.twitter:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.linked-in:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.git:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+  .bg-mobile {
+    background-image: url(/assets/jeuel768.jpg);
+    width: 100%;
+  }
+
+  .container {
+    align-self: center;
+    width: 70%;
+  }
+
+  .container h1 {
+    font-size: 2.3em;
+  }
+
+  .container span {
+    font-size: 2.2rem;
+  }
+
+  .container h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .bg-mobile {
+    background-image: url(/assets/jeuel992.jpg);
+  }
+
+  .container{
+    left: 5%;
+  }
+
+  .container h1 {
+    font-size: 2.8em;
+  }
+
+  .container span {
+    font-size: 2.4rem;
+  }
+
+  .container h2 {
+    font-size: 2em;
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 816px){
+  #main-container{
+    width: 70vw;
+  }
+
+  .container{
+    left: 16%;
+  }
+}
+
+@media only screen and (min-width: 964px){
+
+  // .container{
+  //   width: 60vw;
+  // }
+  .main-container{
+    width: 80vw;
+  }
+
+  .container{
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .bg-mobile {
+    background-image: url(/assets/jeuel.jpg);
+  }
+
+  .container{
+    left: 5%;
+  }
+
+  .container h1 {
+    font-size: 3.5em;
+  }
+
+  .container span {
+    font-size: 3.5rem;
+  }
+
+  .container h2 {
+    font-size: 2.3em;
+    padding-top: 20px 0px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .bg-mobile {
+    background-image: url(/assets/jeuelmax.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .container{
+    left: 10%;
+  }
+
+  .container h1 {
+    font-size: 3.8em;
+  }
+
+  .container span {
+    font-size: 4rem;
+  }
+
+  .container h2 {
+    padding-top: 50px;
+    font-size: 2.7em;
+  }
+
+  .social-media {
+    margin-top: 30px;
+    width: 100%;
+  }
+}
